@@ -1,0 +1,73 @@
+html {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding: 90px;
+}
+
+/* Whatsapp button */
+.wsp__btn img {
+  position: fixed;
+  width: 3.5rem;
+  bottom: 3rem;
+  left: 1.2rem;
+}
+
+.wsp__btn img:hover {
+  cursor: pointer;
+}
+
+/*button up style*/
+.btn__up {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background: royalblue;
+  position: fixed;
+  right: 1.2rem;
+  left: 93%;
+  bottom: 3rem;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn__up:hover {
+  opacity: .7;
+}
+
+/*Clases del js para el btnUp*/
+
+.hide {
+  opacity: 0;
+}
+
+.active {
+  opacity: 1;
+}
+
+/* Responsive Design */
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .btn__up {
+    left: 80%;
+    bottom: 1rem;
+  }
+
+  .wsp__btn img {
+    right: 80%;
+    bottom: 1rem;
+    z-index: 2;
+  }
+}
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .btn__up {
+    left: 90%;
+    bottom: 8rem;
+  }
+
+  .wsp__btn img {
+    right: 80%;
+    bottom: 8rem;
+    z-index: 2;
+  }
+}
