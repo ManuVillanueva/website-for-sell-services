@@ -71,7 +71,7 @@ input, textarea {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  width: 30rem;
+  width: 25rem;
 }
 
 /* Validate style start */

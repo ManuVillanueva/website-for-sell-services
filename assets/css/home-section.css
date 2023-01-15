@@ -1,6 +1,6 @@
 .home {
   /* background: linear-gradient(var(--third-color), var(--second-color)); */
-  background-image: url(../img/home-bg.png);
+  background-image: url(../img/home-bg.webp);
   background-blend-mode: multiply;
   background-attachment: fixed;
   background-repeat: no-repeat;
