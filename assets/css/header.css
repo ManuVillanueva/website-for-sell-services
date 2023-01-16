@@ -68,7 +68,9 @@
   }
 
   .logo img {
-    display: none;
+    display: block;
+    position: absolute;
+    top: -2.1rem;
   }
 
   .header .navbar {
