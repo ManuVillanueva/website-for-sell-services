@@ -14,6 +14,39 @@
   font-size: 2rem;
 }
 
+/*Countdown Styles starts*/
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.simply-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--fourth-color);
+  margin: 0 1rem;
+  width: 7.5rem;
+  height: 7rem;
+  border-radius: .5rem;
+}
+
+.simply-amount {
+  text-align: center;
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.simply-word {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+/*Countdown Styles ends*/
+
 .cards {
   display: flex;
   justify-content: center;
@@ -120,8 +153,30 @@
 @media screen and (max-width: 767px) {
   .price {
     padding: 1rem 0;
-    height: 135rem;
+    height: 155rem;
   }
+
+  /*Countdown Styles starts*/
+
+  #countdown {
+    width: 100%;
+  }
+
+  .simply-section {
+    width: 5rem;
+    height: 4rem;
+    margin: 0 1rem;
+  }
+
+  .simply-amount {
+    font-size: 1.5rem;
+  }
+
+  .simply-word {
+    font-size: 1rem;
+  }
+
+  /*Countdown Styles ends*/
 
   .cards {
     display: flex;
@@ -157,6 +212,28 @@
     padding: 1rem 0;
     height: 100%;
   }
+
+  /*Countdown Styles starts*/
+
+  #countdown {
+    width: 100%;
+  }
+
+  .simply-section {
+    width: 5rem;
+    height: 4rem;
+    margin: 0 1rem;
+  }
+
+  .simply-amount {
+    font-size: 1.5rem;
+  }
+
+  .simply-word {
+    font-size: 1rem;
+  }
+
+  /*Countdown Styles ends*/
 
   .cards {
     display: flex;
