@@ -8,6 +8,12 @@
   margin-bottom: 5rem;
 }
 
+.price__heading--promo {
+  color: #ec615e;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+}
+
 .cards {
   display: flex;
   justify-content: center;
@@ -19,12 +25,12 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: auto;
+  height: 100%;
   background: #f9f9f9;
   border-radius: .5rem;
   box-shadow: 0 5px 14px rgba(0, 0, 0, .3), 0 5px 5px rgba(0, 0, 0, .3);
-  padding: 2rem;
-  margin: 1rem;
+  padding: 0 1rem;
+  margin: 0 1rem;
   transition: all 600ms ease-in;
 }
 
@@ -84,7 +90,13 @@
 
 .card__wrapper--price {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+}
+
+.card__wrapper--price small {
+  color: #ec615e;
+  margin: .3rem 0;
+  text-decoration: line-through;
 }
 
 .card__wrapper--price p {
@@ -94,7 +106,13 @@
 
 .card__wrapper--price > p > sup,
 .card__wrapper--price > p > sub {
-  font-size: 1rem;
+  font-size: 2rem;
+}
+
+.card__wrapper--btn {
+  width: auto;
+  height: auto;
+  padding: .4rem;
 }
 
 /* Responsive Design */
@@ -102,7 +120,7 @@
 @media screen and (max-width: 767px) {
   .price {
     padding: 1rem 0;
-    height: 125rem;
+    height: 135rem;
   }
 
   .cards {
