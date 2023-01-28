@@ -200,10 +200,23 @@
     transform: none;
   }
 
+  .card__wrapper--detail p {
+    font-size: 1rem;
+  }
+
+  .card__wrapper--price small {
+    margin: 0;
+    margin-top: 2rem;
+  }
+
+  .card__wrapper--price p {
+    margin-top: 0;
+  }
+
   .content__btn {
+    margin: 1.5rem 0;
     padding: .5rem;
     height: auto;
-    margin: auto;
   }
 }
 /* Tablet */
@@ -273,13 +286,18 @@
     margin: 0;
   }
 
-  .card__wrapper--price p {
+  .card__wrapper--price small {
+    margin: 0;
     margin-top: 2rem;
   }
 
+  .card__wrapper--price p {
+    margin-top: 0;
+  }
+
   .content__btn {
+    margin: 1.5rem 0;
     padding: .5rem;
     height: auto;
-    margin: 0;
   }
 }
