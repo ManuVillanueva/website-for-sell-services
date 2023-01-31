@@ -13,7 +13,7 @@
 .contact__container {
   display: flex;
   margin: 1rem;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: row-reverse;
 }
 
@@ -28,12 +28,14 @@
 
 .form__container, input, textarea {
   border-radius: 5px;
-  height: 6rem;
+  /* height: 6rem; */
 }
 
 input, textarea {
   background: var(--third-color);
-  height: 9rem;
+  /* height: 9rem; */
+  width: 24rem;
+  height: 3rem;
 }
 
 .form__container label {
@@ -42,6 +44,7 @@ input, textarea {
 
 #textarea {
   resize: none;
+  height: 9rem;
 }
 
 .textarea__smalltext {
@@ -55,7 +58,7 @@ input, textarea {
   border-radius: 5px;
   cursor: pointer;
   color: #fff;
-  margin-top: 7rem;
+  margin-top: 1rem;
   padding: 1rem 0;
   width: 10rem;
   transition: 600ms;
@@ -69,8 +72,8 @@ input, textarea {
 
 .contact__container--image {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   width: 25rem;
 }
 
@@ -109,6 +112,10 @@ input, textarea {
 
   .contact__container {
     flex-direction: column;
+  }
+
+  input, textarea {
+    width: auto;
   }
 
   .contact__container--image {
