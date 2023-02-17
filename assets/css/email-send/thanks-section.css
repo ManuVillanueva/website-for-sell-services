@@ -3,11 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 99vh;
-}
-
-.thanks__image img{
-  width: 2rem;
+  height: 90vh;
 }
 
 .thanks__text {
@@ -61,3 +57,50 @@
 }
 
 /*Animation letter finished*/
+
+
+/* Responsive design */
+
+/* mobile */
+
+@media screen and (max-width: 767px) {
+
+  .thanks__section {
+    margin: 1rem;
+  }
+
+  .illustration {
+    margin: -8rem;
+    width: 15rem;
+  }
+
+  .thanks__text h2 {
+    font-size: 2rem;
+    width: 100%s;
+  }
+
+  .thanks__text h3 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1023) {
+  .thanks__section {
+    margin: 1rem;
+  }
+
+  .illustration {
+    margin: -5rem;
+    width: 15rem;
+  }
+
+  .thanks__text h2 {
+    font-size: 3rem;
+    width: 100%s;
+  }
+
+  .thanks__text h3 {
+    font-size: 2rem;
+  }
+}
