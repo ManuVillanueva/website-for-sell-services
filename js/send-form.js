@@ -14,6 +14,6 @@ async function handleSubmit(event) {
 
     if (response.ok) {
         this.reset();
-        alert("Consulta recibida, le responderemos los antes posible");
+        window.location.href = "email-send.html";
     };
 };
