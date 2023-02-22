@@ -20,6 +20,7 @@
 
 .home .banner {
   color: var(--second-color);
+  margin: 1.5rem 0;
   font-size: 4rem;
   text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
 }
